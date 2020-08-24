@@ -38,6 +38,10 @@ img {
   justify-content: flex-end;
 }
 
+.profilpic {
+  max-height: 400px;
+}
+
 p {
   background-color: #ffffff;
   padding-top: 30px;
@@ -48,4 +52,13 @@ p {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+}
+
+.switch-btn{
+  background-color: black;
+  color:white;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:14px;
 }
