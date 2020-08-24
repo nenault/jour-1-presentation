@@ -1,9 +1,33 @@
-#nicolas {
+* {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background-color: rgb(229, 243, 248);
+}
+
+#start {
+    text-align: center;
+}
+
+.bloc {
     display: flex;
-    text-align: left;
+}
+
+.bloc2 {
+    text-align: center;
+}
+
+#nicolas {
+    width: 45vw;
+    justify-content: flex-start;
 }
 
 #raphaëlle {
-    display: flex;
-    text-align: right;
+    width: 45vw;
+    justify-content: flex-end;
+}
+
+#end {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
