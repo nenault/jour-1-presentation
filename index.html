@@ -17,26 +17,26 @@
                 <h2>Nicolas</h2>
                 <img src="IMG_3647.JPG" alt="photos de Nicolas">
             </div>
-            <ul>
-                <li>who</li>
-                <li>what</li>
-                <li>where</li>
-                <li>when</li>
-                <li>how</li>
-            </ul>
+            <div id="teamMember">
+                <div class="who"></div>
+                <div class="what"></div>
+                <div class="where"></div>
+                <div class="when"></div>
+                <div class="how"></div>
+            </div>
         </div>
         <div id="raphaëlle">
             <div class="bloc2">
                 <h2>Raphaëlle</h2>
                 <img src="IMG_3649.JPG" alt="photos de Raphaëlle">
             </div>
-            <ul>
-                <li>who</li>
-                <li>what</li>
-                <li>where</li>
-                <li>when</li>
-                <li>how</li>
-            </ul>
+            <div id="teamMember">
+                <div class="who"></div>
+                <div class="what"></div>
+                <div class="where"></div>
+                <div class="when"></div>
+                <div class="how"></div>
+            </div>
         </div>
     </div>
     <div id="end">
@@ -45,4 +45,35 @@
 
 </body>
 
+<script>
+    let teamMember = [
+    {
+        who: 'raphaelle',
+        what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        when:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        how:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+    },
+    {
+        who: 'nicolas',
+        what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        when:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        how:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+    },
+    ];
+    
+    function fillMember(teamMember) {
+    //console.log(teamMember.who);
+    
+    document.getElementsByClassName('who')[0].innerHTML = teamMember.who;
+    document.getElementsByClassName('what')[0].innerHTML = teamMember.what;
+    document.getElementsByClassName('where')[0].innerHTML = teamMember.where;
+    document.getElementsByClassName('when')[0].innerHTML = teamMember.when;
+    document.getElementsByClassName('how')[0].innerHTML = teamMember.how;
+    }
+    
+      
+    fillMember(teamMember[0]);
+</script>
 </html>
