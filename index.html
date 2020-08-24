@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <h1 id="start">A QUICK PRESENTATION</h1>
     <div class="bloc">
-        <div id="nicolas">
-            <div class="bloc2">
-                <h2>Nicolas</h2>
-                <img src="IMG_3647.JPG" alt="photos de Nicolas">
-            </div>
-            <div id="teamMember">
-                <div class="who"></div>
-                <div class="what"></div>
-                <div class="where"></div>
-                <div class="when"></div>
-                <div class="how"></div>
-            </div>
+      <div id="nicolas">
+        <div class="bloc2">
+          <h2>Nicolas</h2>
+          <img src="IMG_3647.JPG" alt="photos de Nicolas" />
         </div>
-        <div id="raphaëlle">
-            <div class="bloc2">
-                <h2>Raphaëlle</h2>
-                <img src="IMG_3649.JPG" alt="photos de Raphaëlle">
-            </div>
-            <div id="teamMember">
-                <div class="who"></div>
-                <div class="what"></div>
-                <div class="where"></div>
-                <div class="when"></div>
-                <div class="how"></div>
-            </div>
+        <div id="teamMember">
+          <div class="who"></div>
+          <div class="what"></div>
+          <div class="where"></div>
+          <div class="when"></div>
+          <div class="how"></div>
         </div>
+      </div>
+      <div id="raphaëlle">
+        <div class="bloc2">
+          <h2>Raphaëlle</h2>
+          <img src="IMG_3649.JPG" alt="photos de Raphaëlle" />
+        </div>
+        <div id="teamMember">
+          <div class="who"></div>
+          <div class="what"></div>
+          <div class="where"></div>
+          <div class="when"></div>
+          <div class="how"></div>
+        </div>
+      </div>
     </div>
     <div id="end">
-        <p>Lets'rock this bootcamp!</p>
+      <p>Lets'rock this bootcamp!</p>
     </div>
+  </body>
 
-</body>
-
-<script>
+  <script>
     let teamMember = [
-    {
-        who: 'raphaelle',
-        what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        when:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        how:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-    },
-    {
-        who: 'nicolas',
-        what: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        when:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        how:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-    },
+      {
+        who: "raphaelle",
+        what: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        where: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        when: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        how: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      },
+      {
+        who: "nicolas",
+        what: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        where: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        when: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        how: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      },
     ];
-    
+
     function fillMember(teamMember) {
-    //console.log(teamMember.who);
-    
-    document.getElementsByClassName('who')[0].innerHTML = teamMember.who;
-    document.getElementsByClassName('what')[0].innerHTML = teamMember.what;
-    document.getElementsByClassName('where')[0].innerHTML = teamMember.where;
-    document.getElementsByClassName('when')[0].innerHTML = teamMember.when;
-    document.getElementsByClassName('how')[0].innerHTML = teamMember.how;
+      //console.log(teamMember.who);
+
+      document.getElementsByClassName("who")[0].innerHTML = teamMember.who;
+      document.getElementsByClassName("what")[0].innerHTML = teamMember.what;
+      document.getElementsByClassName("where")[0].innerHTML = teamMember.where;
+      document.getElementsByClassName("when")[0].innerHTML = teamMember.when;
+      document.getElementsByClassName("how")[0].innerHTML = teamMember.how;
     }
-    
-      
+
     fillMember(teamMember[0]);
-</script>
+  </script>
 </html>
