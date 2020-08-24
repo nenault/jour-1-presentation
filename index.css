@@ -1,33 +1,33 @@
 * {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    background-color: rgb(229, 243, 248);
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  background-color: rgb(229, 243, 248);
 }
 
 #start {
-    text-align: center;
+  text-align: center;
 }
 
 .bloc {
-    display: flex;
+  display: flex;
 }
 
 .bloc2 {
-    text-align: center;
+  text-align: center;
 }
 
 #nicolas {
-    width: 45vw;
-    justify-content: flex-start;
+  width: 45vw;
+  justify-content: flex-start;
 }
 
 #raphaëlle {
-    width: 45vw;
-    justify-content: flex-end;
+  width: 45vw;
+  justify-content: flex-end;
 }
 
 #end {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
