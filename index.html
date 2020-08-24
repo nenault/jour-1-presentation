@@ -1,80 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <h1 id="start">A QUICK PRESENTATION</h1>
-    <div class="bloc">
-      <div id="nicolas">
-        <div class="bloc2">
-          <h2 class="who"></h2>
-          <img src="IMG_3647.JPG" alt="photos de Nicolas" />
-          <div class="what"></div>
-          <div class="where"></div>
-          <div class="when"></div>
-          <div class="how"></div>
-        </div>
-      </div>
-      <div id="raphaëlle">
-        <div class="bloc2">
-          <h2 class="who"></h2>
-          <img src="IMG_3649.JPG" alt="photos de Raphaëlle" />
-          <div class="what"></div>
-          <div class="where"></div>
-          <div class="when"></div>
-          <div class="how"></div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <h1 id="start">A QUICK PRESENTATION</h1>
+  <div class="bloc">
+    <div id="nicolas">
+      <div class="bloc2">
+        <h2 class="who"></h2>
+        <img src="IMG_3647.JPG" alt="photos de Nicolas" />
+        <div class="what"></div>
+        <div class="where"></div>
+        <div class="when"></div>
+        <div class="how"></div>
       </div>
     </div>
-    <div id="end">
-      <p>Let's rock this bootcamp!</p>
+    <div id="raphaëlle">
+      <div class="bloc2">
+        <h2 class="who"></h2>
+        <img src="IMG_3649.JPG" alt="photos de Raphaëlle" />
+        <div class="what"></div>
+        <div class="where"></div>
+        <div class="when"></div>
+        <div class="how"></div>
+      </div>
     </div>
-  </body>
+  </div>
+  <div id="end">
+    <p>Let's rock this bootcamp!</p>
+  </div>
+</body>
 
-  <script>
-    let teamMember = [
-      {
-        who: "Nicolas",
-        what: "Journalist",
-        where: "At franceinfo",
-        when: "During twelve years",
-        how: "(ツ)",
-      },
-      {
-        who: "Raphaëlle",
-        what: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        where: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        when: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        how: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      },
-    ];
+<script>
+  let teamMember = [{
+      who: "Nicolas",
+      what: "Journalist",
+      where: "At franceinfo",
+      when: "During twelve years",
+      how: "(ツ)",
+    },
+    {
+      who: "Raphaëlle",
+      what: "Digital Marketing",
+      where: "At Meero",
+      when: "During one year and half",
+      how: "(ツ)",
+    },
+  ];
 
-    function fillMember1(teamMember) {
-      document.getElementsByClassName("who")[0].innerHTML = teamMember.who;
-      document.getElementsByClassName("what")[0].innerHTML = teamMember.what;
-      document.getElementsByClassName("where")[0].innerHTML = teamMember.where;
-      document.getElementsByClassName("when")[0].innerHTML = teamMember.when;
-      document.getElementsByClassName("how")[0].innerHTML = teamMember.how;
-    }
+  function fillMember1(teamMember) {
+    document.getElementsByClassName("who")[0].innerHTML = teamMember.who;
+    document.getElementsByClassName("what")[0].innerHTML = teamMember.what;
+    document.getElementsByClassName("where")[0].innerHTML = teamMember.where;
+    document.getElementsByClassName("when")[0].innerHTML = teamMember.when;
+    document.getElementsByClassName("how")[0].innerHTML = teamMember.how;
+  }
 
-    function fillMember2(teamMember) {
-      document.getElementsByClassName("who")[1].innerHTML = teamMember.who;
-      document.getElementsByClassName("what")[1].innerHTML = teamMember.what;
-      document.getElementsByClassName("where")[1].innerHTML = teamMember.where;
-      document.getElementsByClassName("when")[1].innerHTML = teamMember.when;
-      document.getElementsByClassName("how")[1].innerHTML = teamMember.how;
-    }
+  function fillMember2(teamMember) {
+    document.getElementsByClassName("who")[1].innerHTML = teamMember.who;
+    document.getElementsByClassName("what")[1].innerHTML = teamMember.what;
+    document.getElementsByClassName("where")[1].innerHTML = teamMember.where;
+    document.getElementsByClassName("when")[1].innerHTML = teamMember.when;
+    document.getElementsByClassName("how")[1].innerHTML = teamMember.how;
+  }
 
-    fillMember1(teamMember[0]);
-    fillMember2(teamMember[1]);
-  </script>
+  fillMember1(teamMember[0]);
+  fillMember2(teamMember[1]);
+</script>
+
 </html>
